@@ -1,5 +1,3 @@
-package Lab01;
-
 public class Battle {
     public String name1, name2;
     public float atk1, atk2, def1, def2, hp1, hp2;
@@ -45,4 +43,8 @@ public class Battle {
     public String getMonster2Name() {
         return name2;
     }
+
+    public float getMonster1HP() { return hp1; }
+
+    public float getMonster2HP() { return hp2; }
 }
