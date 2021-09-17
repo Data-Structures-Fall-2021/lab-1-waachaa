@@ -1,5 +1,3 @@
-package Lab01;
-
 public class TaylorSeries {
     public static long pow(int a, int b) {
         if (b != 0) {return (a*pow(a, b-1));} else return 1;
